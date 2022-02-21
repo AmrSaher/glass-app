@@ -1,0 +1,131 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* END FONT */
+
+/* VARIABLES */
+:root {
+    --bg-img: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
+    --bg-color: rgba(16, 18, 27, 0.3);
+    --color: #ffffff;
+    --scrollbar-bg: rgb(1 2 3 / 40%);
+    --main-box-shadow: rgba(49, 49, 49, 0.2) 0px 8px 24px;
+    --border-color: rgba(113, 119, 144, 0.521);
+    --red-color: #f96057;
+    --green-color: #5fcf65;
+    --yellow-color: #f8ce52;
+    --inactive-color: rgba(140, 144, 163, 0.829);
+    --main-transition: 0.3s all ease-in-out;
+}
+/* END VARIABLES */
+
+/* ANIMATIONS */
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* END ANIMATIONS */
+
+/* MAIN RULES */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    padding: 40px;
+    background: center no-repeat;
+    background-size: cover;
+    color: var(--color);
+    font-family: "Poppins", sans-serif;
+}
+
+.video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+ul {
+    list-style: none;
+}
+
+.app {
+    backdrop-filter: blur(20px);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: black;
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    box-shadow: var(--main-box-shadow);
+}
+
+.flat-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--color);
+}
+
+.page {
+    position: absolute;
+    top: 116px;
+    left: 240px;
+    width: calc(100% - 240px);
+    height: calc(100% - 116px);
+    overflow-y: auto;
+    border-bottom-right-radius: 20px;
+    background-color: var(--bg-color);
+    padding: 20px 20px;
+}
+
+.page::-webkit-scrollbar {
+    width: 5px;
+}
+
+.page::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.page::-webkit-scrollbar-thumb {
+    background-color: rgba(1, 2, 3, 0.4);
+    border-radius: 10px;
+}
+
+section {
+    width: 100%;
+}
+
+section .section_title {
+    font-size: 15px;
+    color: var(--inactive-color);
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+/* END MAIN RULES */
+
+/* MEDIA */
+@media (max-width: 820px) {
+    .page {
+        left: 0;
+        width: 100%;
+    }
+}
+/* END MEDIA */

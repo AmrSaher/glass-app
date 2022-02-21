@@ -1,0 +1,10 @@
+- Pros:
+    - Glass Bg
+    - Dark And Light Theme
+    - Responsive
+
+- [x] Header
+- [x] Sidebar
+- [x] All Apps Page
+- [ ] Drop Downs
+- [x] Dark Theme
