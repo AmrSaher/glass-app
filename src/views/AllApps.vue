@@ -20,7 +20,7 @@
         </p>
         <button class="trail_btn">Start free trail</button>
       </div>
-      <img src="https://assets.codepen.io/3364143/glass.png" class="land_image" alt="land_image">
+      <img src="https://limewire.com/decrypt?downloadUrl=https%3A%2F%2Flimewire-filesharing-production.b61cdfd8cf17f52ddc020162e738eb5d.r2.cloudflarestorage.com%2Fbuckets%2F83ff1588-4cdf-4f0e-9df9-1d8f8561d0aa%2F0fdb73a3-5ac5-4955-a584-6076d9f8d932%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Date%3D20251005T212604Z%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Credential%3Da1868571dfad6d4fe293ee5b945a0ad5%252F20251005%252Fauto%252Fs3%252Faws4_request%26X-Amz-Expires%3D14400%26X-Amz-Signature%3Dc0e6e83be394a1797f08307917303e19e26501900847cc4eafabc281ed484737&mediaType=image%2Fpng&decryptionKeys=eyJhZXNHY21Kd2siOnsiYWVzS2V5VHlwZSI6IlNZTU1FVFJJQ19BRVMtR0NNX0tFWSIsImp3ayI6eyJhbGciOiJBMjU2R0NNIiwiZXh0Ijp0cnVlLCJrIjoiejA5Y3lpVTNfVnJtOTFpMGtxaC1USjgxYjZyaDJUN3pmTGcxOHRZekxHayIsImtleV9vcHMiOlsiZW5jcnlwdCIsImRlY3J5cHQiXSwia3R5Ijoib2N0In19LCJhZXNDdHJKd2siOnsiYWVzS2V5VHlwZSI6IlNZTU1FVFJJQ19BRVMtQ1RSX0tFWSIsImp3ayI6eyJhbGciOiJBMjU2Q1RSIiwiZXh0Ijp0cnVlLCJrIjoiejA5Y3lpVTNfVnJtOTFpMGtxaC1USjgxYjZyaDJUN3pmTGcxOHRZekxHayIsImtleV9vcHMiOlsiZW5jcnlwdCIsImRlY3J5cHQiXSwia3R5Ijoib2N0In19fQ" class="land_image" alt="land_image">
     </section>
     <section class="installed-apps">
       <h3 class="section_title">Installed</h3>
